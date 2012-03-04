@@ -1,0 +1,6 @@
+#!/bin/bash
+DIR=`dirname $0 && pwd`
+cd $DIR
+#python ./scrobd.py $@ 2>&1 | tee -a debug.log
+python ./scrobd.py $@ || notify-send "Scrobd" "FAIL"
+

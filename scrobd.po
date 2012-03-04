@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-03 14:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: scrobd.py:99 scrobd.py:168
+msgid "No response from the MPD server :("
+msgstr ""
+
+#: scrobd.py:100 scrobd.py:169 scrobd.py:1110
+msgid "Trying to reconnect... \n"
+msgstr ""
+
+#: scrobd.py:103 scrobd.py:172 scrobd.py:1113
+#, python-format
+msgid "FAIL : %s"
+msgstr ""
+
+#: scrobd.py:123
+#, python-format
+msgid "Unable to connect to the MPD server : %s"
+msgstr ""
+
+#: scrobd.py:208
+msgid "Not submitted (Not played enough or too short)\n"
+msgstr ""
+
+#: scrobd.py:238
+#, python-format
+msgid "Adding %(artist)s - %(title)s ... \n"
+msgstr ""
+
+#: scrobd.py:249
+#, python-format
+msgid "Waiting for %s to stop...\n"
+msgstr ""
+
+#: scrobd.py:264
+#, python-format
+msgid "Trying to reconnect... (%s)\n"
+msgstr ""
+
+#: scrobd.py:276
+msgid "Success !\n"
+msgstr ""
+
+#: scrobd.py:278
+msgid "Fail !\n"
+msgstr ""
+
+#: scrobd.py:299
+#, python-format
+msgid "User name for %s : "
+msgstr ""
+
+#: scrobd.py:301
+#, python-format
+msgid "Password for %s : "
+msgstr ""
+
+#: scrobd.py:341
+#, python-format
+msgid "Unable to connect to %(host)s : %(error)s "
+msgstr ""
+
+#: scrobd.py:376
+#, python-format
+msgid "Connexion issues (%(error)s) %(try)d"
+msgstr ""
+
+#: scrobd.py:380
+#, python-format
+msgid "URL Error : %s"
+msgstr ""
+
+#: scrobd.py:384
+#, python-format
+msgid "Submited (%s).\n"
+msgstr ""
+
+#: scrobd.py:386
+#, python-format
+msgid "Fail (%s) !\n"
+msgstr ""
+
+#: scrobd.py:408
+#, python-format
+msgid ""
+"Unable to submit the start or the song '%(artist)s - %(title)s' : %(error)s"
+msgstr ""
+
+#: scrobd.py:460
+#, python-format
+msgid "Submiting : %(artist)s - %(title)s\n"
+msgstr ""
+
+#: scrobd.py:542
+#, python-format
+msgid "Cannot %(mode)s file %(file)s."
+msgstr ""
+
+#: scrobd.py:546
+#, python-format
+msgid "File %s doesn't exist"
+msgstr ""
+
+#: scrobd.py:551
+#, python-format
+msgid "Cannot write in file %s."
+msgstr ""
+
+#: scrobd.py:561
+#, python-format
+msgid "Cannot create directory %s."
+msgstr ""
+
+#: scrobd.py:615
+#, python-format
+msgid "%(file)s : syntax error line %(line)d : %(err)s"
+msgstr ""
+
+#: scrobd.py:627
+msgid "need moar arguments."
+msgstr ""
+
+#: scrobd.py:649
+msgid "value error."
+msgstr ""
+
+#: scrobd.py:652
+msgid "what the hell did you do ???"
+msgstr ""
+
+#: scrobd.py:655
+msgid "option not reconized"
+msgstr ""
+
+#: scrobd.py:674
+#, python-format
+msgid "%s must have an argument."
+msgstr ""
+
+#: scrobd.py:679
+msgid "wrong number of arguments."
+msgstr ""
+
+#: scrobd.py:684
+#, python-format
+msgid "Unable to open config file %s."
+msgstr ""
+
+#: scrobd.py:710
+#, python-format
+msgid "Unknown argument : %s."
+msgstr ""
+
+#: scrobd.py:742
+msgid "No pid file. Kill manually, with the 'kill' command"
+msgstr ""
+
+#: scrobd.py:745
+#, python-format
+msgid "Unable to kill %d."
+msgstr ""
+
+#: scrobd.py:1092
+msgid "The MPD server address (default: 127.0.0.1): "
+msgstr ""
+
+#: scrobd.py:1098
+msgid "The MPD sever port (default: 6600)"
+msgstr ""
+
+#: scrobd.py:1108
+#, python-format
+msgid "Unable to connect to %(host)s:%(port)s : %(error)s"
+msgstr ""
+
+#: scrobd.py:1118
+msgid "Connecting to scrobblers...\n"
+msgstr ""
+
+#: scrobd.py:1127
+msgid "Not connected to any scrobbler."
+msgstr ""
+
+#: scrobd.py:1156
+#, python-format
+msgid "Song changed : %s\n"
+msgstr ""
